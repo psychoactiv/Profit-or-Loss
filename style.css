@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  margin: auto;
+  color: red;
+}
+label {
+  display: block;
+  margin-bottom: 7px;
+}
+input {
+  margin-bottom: 10px;
+}
+input {
+  text-align: center;
+}
