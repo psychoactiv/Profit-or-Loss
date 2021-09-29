@@ -1,7 +1,9 @@
 body {
   text-align: center;
-  margin: auto;
-  color: red;
+  background-color: #9fb1bcff;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 label {
   display: block;
@@ -12,4 +14,32 @@ input {
 }
 input {
   text-align: center;
+}
+nav {
+  text-align: center;
+  margin: auto;
+  background-color: #2e5266ff;
+  color: #6e8898ff;
+}
+footer {
+  text-align: center;
+  margin: auto;
+  background-color: #2e5266ff;
+  margin-top: 280px;
+  color: #6e8898ff;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  margin: 0px;
+  padding: 5px;
+}
+footer h3 {
+  margin: 0px;
 }
