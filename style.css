@@ -1,16 +1,33 @@
 body {
   text-align: center;
-  background-color: #9fb1bcff;
+
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Fredoka One", cursive;
+}
+.wholeContainer {
+  background-color: #9fb1bcff;
 }
 label {
   display: block;
   margin-bottom: 7px;
+  font-size: 25px;
 }
 input {
   margin-bottom: 10px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: "Fredoka One", cursive;
+  font-size: 15px;
+}
+button {
+  width: 120px;
+  height: 30px;
+  font-family: "Fredoka One", cursive;
 }
 input {
   text-align: center;
@@ -39,7 +56,34 @@ a {
 h1 {
   margin: 0px;
   padding: 5px;
+  font-size: 50px;
+}
+nav a {
+  font-size: 35px;
+  color: darkcyan;
+}
+a:hover {
+  color: cyan;
 }
 footer h3 {
   margin: 0px;
+}
+.container {
+  color: rgb(33, 54, 66);
+  margin-top: 70px;
+}
+nav li {
+  margin-bottom: 30px;
+}
+.M-better-By-MYself {
+  font-size: 70px;
+}
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  color: azure;
+  background-color: rgb(43, 43, 109);
+  cursor: pointer;
 }
