@@ -9,9 +9,11 @@ function newFunc(initialPrice, amountOfStocks, currentAmount) {
   var initial = Number(initialPrice.value);
   var noOfStocks = Number(amountOfStocks.value);
   var current = Number(currentAmount.value);
-  if (initial <= 0 && noOfStocks <= 0 && current <= 0) {
-    alert(" The value should be  greater than 0 ");
-  } else {             
+  if (initial === 0 && noOfStocks === 0 && current === 0) {
+    alert("Please enter all the Values greater than 0 ");
+  } else if (initial <= 0 || noOfStocks <= 0 || current <= 0) {
+    alert("Please enter all values in positive integers greater than 0");
+  } else {
     if (initial < current) {
       var profit = (current - initial) * noOfStocks;
       var profitPercntage = (profit / initial) * 100;
