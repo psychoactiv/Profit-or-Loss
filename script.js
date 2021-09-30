@@ -30,6 +30,7 @@ function newFunc(initialPrice, amountOfStocks, currentAmount) {
       wholeContainer.style.backgroundColor = "#FF7377";
     } else {
       output.innerText = `No pain no gain, No gain no pain`;
+      wholeContainer.style.backgroundColor = "#9fb1bcff";
     }
   }
 }
