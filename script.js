@@ -10,9 +10,12 @@ function newFunc(initialPrice, amountOfStocks, currentAmount) {
   var noOfStocks = Number(amountOfStocks.value);
   var current = Number(currentAmount.value);
   if (initial === 0 && noOfStocks === 0 && current === 0) {
-    alert("Please enter all the Values greater than 0 ");
+    output.innerText = "Please enter all the Values greater than 0 ";
+    wholeContainer.style.backgroundColor = "#9fb1bcff";
   } else if (initial <= 0 || noOfStocks <= 0 || current <= 0) {
-    alert("Please enter all values in positive integers greater than 0");
+    output.innerText =
+      "Please enter all values in positive integers greater than 0";
+    wholeContainer.style.backgroundColor = "#9fb1bcff";
   } else {
     if (initial < current) {
       var profit = (current - initial) * noOfStocks;
